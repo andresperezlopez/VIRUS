@@ -9,7 +9,7 @@ from random import *
 from subprocess import call
 
 
-client_id="4f5e5222eff109ec6293e9ce7edfa08d" #put here yours
+client_id="" #put here yours
 client = soundcloud.Client(client_id=client_id)
                 
 def get_followers(userID):
